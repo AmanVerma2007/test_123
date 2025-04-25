@@ -1,2 +1,4 @@
-# This is a test Python file
-print("Hello, World!")
+import requests
+
+response = requests.get('https://api.example.com/data')
+print(response.json())
